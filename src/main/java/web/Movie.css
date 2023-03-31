@@ -8,24 +8,23 @@
 
 .player {
     text-align: center;
+    height: 360px;
 }
 
 .back {
     height: 60px;
     width: 60px;
-    text-align:left;
-    float:left;
-    margin-left: 300px;
-    margin-top: 125px;
+    display:inline-block;
+    margin-right: 150px;
+    margin-bottom: 150px;
 }
 
 .next {
     height: 60px;
     width: 60px;
-    text-align:right;
-    float:right;
-    margin-right: 300px;
-    margin-top: 125px;
+    display:inline-block;
+    margin-left: 150px;
+    margin-bottom: 150px;
 }
 
 .movieTitle {
@@ -53,9 +52,9 @@ video {
 }
 
 .poster {
-    width: 100px;
+    width: 150px;
+    height: 220px;
     display:inline-block;
-
 }
 
 p {
