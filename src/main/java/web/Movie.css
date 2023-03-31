@@ -6,16 +6,38 @@
     text-align: center;
 }
 
+.player {
+    text-align: center;
+}
+
+.back {
+    height: 60px;
+    width: 60px;
+    text-align:left;
+    float:left;
+    margin-left: 300px;
+    margin-top: 125px;
+}
+
+.next {
+    height: 60px;
+    width: 60px;
+    text-align:right;
+    float:right;
+    margin-right: 300px;
+    margin-top: 125px;
+}
+
 .movieTitle {
     text-align: center;
 }
+
 nav {
     text-align: center;
 }
 
 video {
-    clear:both;
-    display:block;
+    display:inline-block;
     margin:auto;
 }
 
@@ -26,6 +48,15 @@ video {
     margin-right: 20px;
 }
 
+.posters {
+    text-align: center;
+}
+
+.poster {
+    width: 100px;
+    display:inline-block;
+
+}
 
 p {
     font-family: Cambria,
