@@ -1,3 +1,6 @@
+body {
+    background-color: lightgray;
+}
 .mainTitle {
     font-family: "Times New Roman";
     font-size: xx-large;
@@ -8,7 +11,8 @@
 
 .player {
     text-align: center;
-    height: 360px;
+    height: 410px;
+    background-color: whitesmoke;
 }
 
 .back {
@@ -42,7 +46,8 @@ video {
 
 .black {
     text-decoration: none;
-    color: #000;
+    color: #2484f8;
+    font-weight: bold;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -55,6 +60,7 @@ video {
     width: 150px;
     height: 220px;
     display:inline-block;
+    margin-top: 10px;
 }
 
 p {

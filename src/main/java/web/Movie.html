@@ -6,9 +6,11 @@
 </head>
 <body>
 
+<script src="Movie.js"></script>
+
 <header>
     <link href="Movie.css" rel="stylesheet" />
-    <h1 class="mainTitle">CAN402 Movie Player</h1>
+    <h1 id = "s1" class="mainTitle">CAN402 Movie Player</h1>
 
     <nav>
     <a class="black" href="Movie.html">Movie</a>
@@ -17,12 +19,12 @@
 
 </header>
 
-<h2 class = "movieTitle">Fast and Furious</h2>
-
 <div class = "player">
+    <h2 class = "movieTitle">Fast and Furious</h2>
+
     <img class="back" src="images/back.jpg" title="Back">
 
-    <video controls width="800" poster="Posters/fastandfurious-poster.jpg" autoplay muted>
+    <video controls width="820" poster="Posters/fastandfurious-poster.jpg" autoplay muted>
         <source src="Movie%20Trailers/fastandfurious-trailer.mov">
         <!-- fallback for browsers that don't support video tag -->
         <a href="Movie%20Trailers/fastandfurious-trailer.mov">download video</a>
