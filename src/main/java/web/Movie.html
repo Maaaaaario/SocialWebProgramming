@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>CAN402 Movie Player</title>
+    <link href="Movie.css" rel="stylesheet" />
 </head>
 <body>
 
-<script src="Movie.js"></script>
-
 <header>
-    <link href="Movie.css" rel="stylesheet" />
-    <h1 id = "s1" class="mainTitle">CAN402 Movie Player</h1>
+
+    <h1 class="mainTitle">CAN402 Movie Player</h1>
 
     <nav>
     <a class="black" href="Movie.html">Movie</a>
@@ -24,13 +23,23 @@
 
     <img class="back" src="images/back.jpg" title="Back">
 
-    <video controls width="820" poster="Posters/fastandfurious-poster.jpg" autoplay muted>
-        <source src="Movie%20Trailers/fastandfurious-trailer.mov">
+    <video id = "videoPlayer" controls width="820" poster="Posters/fastandfurious-poster.jpg" autoplay muted>
+        <source id = "fastAndFurious" src="Movie%20Trailers/fastandfurious-trailer.mov">
         <!-- fallback for browsers that don't support video tag -->
         <a href="Movie%20Trailers/fastandfurious-trailer.mov">download video</a>
     </video>
 
     <img class="next" src="images/next.jpg" title="Next">
+
+    <form action="" method="">
+        <input type="button" name="button1" value="Play/Pause" onclick="playOrPause()" />
+        <input type="button" name="button2" value="Volume Up" onclick="volumeUp()" />
+        <input type="button" name="button3" value="Mute" onclick="mute()" />
+        <input type="button" name="button3" value="Volume Down" onclick="volumeDown()" />
+        <input type="button" name="button3" value="Play All" onclick="playAll()" />
+        <input type="button" name="button3" value="Full Screen" onclick="fullScreen()" />
+
+    </form>
 </div>
 
 <div class = "posters">
@@ -47,5 +56,6 @@
 
 </div>
 
+<script src="Movie.js"></script>
 </body>
 </html>

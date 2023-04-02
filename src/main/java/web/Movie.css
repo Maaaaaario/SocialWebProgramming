@@ -11,8 +11,8 @@ body {
 
 .player {
     text-align: center;
-    height: 410px;
     background-color: whitesmoke;
+    padding-bottom: 10px;
 }
 
 .back {
@@ -21,6 +21,7 @@ body {
     display:inline-block;
     margin-right: 120px;
     margin-bottom: 150px;
+    cursor: pointer;
 }
 
 .next {
@@ -29,6 +30,7 @@ body {
     display:inline-block;
     margin-left: 120px;
     margin-bottom: 150px;
+    cursor: pointer;
 }
 
 .movieTitle {
@@ -61,23 +63,5 @@ video {
     height: 220px;
     display:inline-block;
     margin-top: 10px;
-}
-
-p {
-    font-family: Cambria,
-    Cochin, Georgia, Times,
-    "Times New Roman", serif;
-    font-size: xx-large;
-    font-weight: bold;
-    color: #FF2300;
-    background-color:
-            #10E01E;
-    text-align: center;
-}
-
-#DarkScience {
-    border: 2px dotted;
-    padding: 3%;
-    background-color: #000000;
-    width:100%;
+    cursor: pointer;
 }

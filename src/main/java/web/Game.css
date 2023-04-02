@@ -1,0 +1,46 @@
+body {
+    background-color: lightgray;
+    text-align: center;
+}
+
+.mainTitle {
+    font-family: "Times New Roman";
+    font-size: xx-large;
+    font-weight: bold;
+    color: #FF2300;
+    text-align: center;
+}
+
+.black {
+    text-decoration: none;
+    color: #2484f8;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+p {
+    display:inline-block;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 150px;
+    height: 220px;
+    margin: 5px;
+    transition: all 0.3s ease;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+    background-image: url('images/cardBack.webp');
+    background-size: 150px 220px;
+}
+
+
